@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body{
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+
+#fixed{
+	padding: 4%;
+	background: #eee;
+	text-align: center;
+	position: fixed;
+	margin: 0;
+	top: 0;
+	left: 0;
+
+}
+
+.container{
+	padding: 40px;
+	margin: 0 20%;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 46px;
+	margin-bottom: 10px; 
+}
+
+p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+#relative{
+	position: relative;
+	padding: 12%;
+	background: #eee;
+	margin-bottom: 10px;
+	text-align: center;
+	height: 10%; 
+}
+
+#absolute{
+	background: #999;
+	position: absolute;
+	padding: 3%;
+	width: 40%;
+	text-align: center;
+	bottom: 0;
+	right: -50px;
+}
